@@ -24,3 +24,18 @@ VALUES
 GO
 
 SELECT * FROM Orders;
+
+-- SQL Query: Count Delivered Orders in 'Electronics' Category
+SELECT 
+    COUNT(DISTINCT o.order_id) AS DeliveredElectronicsOrders
+FROM dbo.Orders AS o
+JOIN dbo.OrderDetails AS od 
+    ON o.order_id = od.order_id
+JOIN dbo.Products AS p 
+    ON od.product_id = p.product_id
+JOIN dbo.Categories AS c 
+    ON p.category_id = c.category_id
+WHERE 
+    o.status = 'Delivered'
+    AND c.category_name = 'Electronics';
+GO
