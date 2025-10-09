@@ -4,7 +4,7 @@
 
 ### Overview
 
-The **Global Gadgets Database** was developed as part of an SQL database design and implementation project for a pseudo retail client, **Global Gadgets Ltd**, an e-commerce business specializing in electronic products. The client required a **fully normalized, secure, and scalable relational database system** to support daily operations such as managing customers, products, orders, payments, inventory, shipping, and supplier relationships.
+The **Global Gadgets Database** was developed as part of an SQL database design and implementation project for a pseudo retail client, Global Gadgets Ltd, an e-commerce business specializing in electronic products. The client required a fully normalized, secure, and scalable relational database system to support daily operations such as managing customers, products, orders, payments, inventory, shipping, and supplier relationships.
 
 This project demonstrates a complete end-to-end database design process, from **conceptual modeling and normalization** to **implementation using T-SQL in Microsoft SQL Server Management Studio (SSMS)**.
 
