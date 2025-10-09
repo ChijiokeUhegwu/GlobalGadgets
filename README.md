@@ -116,16 +116,6 @@ Each table contains only data relevant to its entity, promoting **efficiency**, 
 
 ---
 
-## **Backup and Recovery Strategy**
-
-* **Full backups** daily to capture entire database state.
-* **Differential backups** every 6 hours to record incremental changes.
-* **Transaction log backups** every 15 minutes for point-in-time recovery.
-* **Offsite/cloud replication** using Azure Blob Storage or external drives for disaster recovery.
-* Periodic **integrity checks** and **recovery drills** to ensure data can be restored reliably.
-
----
-
 ## **Technologies Used**
 
 * **Database Management System:** Microsoft SQL Server 2021
