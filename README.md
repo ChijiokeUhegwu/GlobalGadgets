@@ -151,7 +151,9 @@ This diagram illustrates entity relationships, primary/foreign key dependencies,
 ## **Author**
 
 **Chijioke C. Uhegwu**
+
 📧 Email: [[chijiokeuhegwu@gmail.com](mailto:chijiokeuhegwu@gmail.com)]
+
 🌐 GitHub: [github.com/ChijiokeUhegwu](https://github.com/ChijiokeUhegwu)
 
 ---
